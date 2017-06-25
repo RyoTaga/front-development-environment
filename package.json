@@ -1,0 +1,29 @@
+{
+  "name": "front-development-environment",
+  "version": "1.0.0",
+  "description": "front development enviroment",
+  "main": "gulpfile.js",
+  "scripts": {
+    "watch": "gulp",
+    "scss": "gulp scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyoTaga/front-development-environment.git"
+  },
+  "author": "Ryo Taga <taga.ryo0224@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyoTaga/front-development-environment/issues"
+  },
+  "homepage": "https://github.com/RyoTaga/front-development-environment#readme",
+  "devDependencies": {
+    "eslint": "^4.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0"
+  }
+}

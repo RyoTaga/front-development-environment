@@ -1,0 +1,35 @@
+{
+    "data": {
+    "sitename": "",
+    "url": "",
+    "ogID":""
+    },
+    "pages": [
+        {
+            "id":"index",
+            "directory":"",
+            "title":"",
+            "description":"description",
+            "keywords":"key, words",
+            "filename":"index",
+            "path":"./",
+            "og": {
+                "image":"screenshot.png",
+                "url":""
+            }
+        },
+        {
+            "id":"sub",
+            "directory":"sub_directory",
+            "title":"",
+            "description":"subpage description",
+            "keywords":"sub, page, key, words",
+            "filename":"index",
+            "path":"../",
+            "og": {
+                "image":"screenshot.png",
+                "url":""
+            }
+        }
+    ]
+}

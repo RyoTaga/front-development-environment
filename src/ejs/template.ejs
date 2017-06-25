@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="<%- page.lang %>">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <meta charset="UTF-8">
+    <link rel="canonical" href="http://www.long-spin.com/<%- page.directory %><%- (page.id != 'ja') ? '/' : '' -%>">
+    <title><%- data.sitename %><%= (page.title !== '')? page.title : page.title %></title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="<%- page.description %>">
+    <meta name="keywords" content="<%- page.keywords %>">
+    <link rel="stylesheet" href="<%- page.path %>css/style.css">
+    <%- (page.title) ? '<meta property="og:title" content="' + page.title + '">\n' : '' -%>
+    <%- (page.description) ? '<meta property="og:description" content="' + page.description + '">\n' : '' -%>
+    <%- (page.og.sitename) ? '<meta property="og:site_name" content="' + page.og.sitename + '">\n' : '' -%>
+    <%- (page.og.image) ? '<meta property="og:image" content="' + data.url + 'img/' + page.id + '/' + page.og.image + '">\n' : '' -%>
+    <%- (page.og.url) ? '<meta property="og:url" content="' + page.og.url + '">\n' : '' -%>
+    <%- (data.ogID) ? '<meta property="fb:admins" content="' + data.ogID + '">\n' : '' -%>
+</head>
+<body>
+    <h1>Hello EJS</h1>
+</body>
+</html>
